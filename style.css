@@ -1,34 +1,137 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+/* ******************** GENERAL ******************** */
+body {
     font-family: 'poopins', sans-serif;
     scroll-behavior: smooth;
+    font-style: italic;
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.divider {
+    width: 300px;
+    height: 2px;
+    background-color: #c69749;
+    margin: 0 auto 20px;
+
+}
+
+section .heading h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+/* ******************** HEADER ******************** */
+
+
+
+
+/* ******************** ABOUT ******************** */
+
+
+.presentation {
+
+    padding: 50px 5px 10px 1px;
+    text-align: center;
+}
+
+#about {
     background: #1d1505;
-
+    color: #c69749;
 }
 
-p {
-    font-weight: 300;
-    color: #1111;
-}
 
-header {
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    padding: 20px;
-    width: 100%;
-    z-index: 1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: 0.5s;
+
+
+/* ******************** DISHES ******************** */
+
+#dishes {
     background: #1d1505;
+    color: #c69749;
 }
 
-.navbar {
-    display: flex;
+#dishes img {
+    margin: 20px 20px;
+}
+
+
+/* ******************** MENU ******************** */
+#menu {
+    background: #1d1505;
+    color: #c69749;
+}
+
+/*
+
+*/
+.description {
+    text-align: center;
+}
+
+
+
+.menu-heading {
+    padding: 50px;
+}
+
+.description>li {
+    margin-bottom: 20px;
     position: relative;
-    
+}
+
+.description>li:before,
+.description>li:after {
+    content: " ";
+    display: table;
+}
+
+.description>li:after {
+    clear: both;
+}
+
+.description {
+    width: 70%;
+    float: none;
+    margin: auto;
+    border: 1px solid #fbeac9;
+    border-radius: 7px;
+    padding: 20px 25px;
+    position: relative;
+    box-shadow: 0 1px 6px #c69749;
+    background: #fbeac9;
+    color: #1d1505;
+}
+
+.button1 {
+    font-weight: bold;
+    color: #c69749;
+    border: 1px solid #c69749;
+    padding: 18px 50px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: all 0.3s ease-in 0s;
+}
+
+.button1:hover {
+    background: #c69749;
+    color: #1d1505;
 }
